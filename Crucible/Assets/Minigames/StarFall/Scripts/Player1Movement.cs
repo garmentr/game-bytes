@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player1Movement : MonoBehaviour
 {   
-    public float speed = 5f;
+    public float speed =  10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +14,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
+        Vector3 movement = new Vector3(Input.GetAxis("P1_Horizontal"), Input.GetAxis("P1_Vertical"), 0f);
         transform.position += movement * Time.deltaTime * speed;
-
     }
 }

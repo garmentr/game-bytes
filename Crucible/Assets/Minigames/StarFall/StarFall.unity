@@ -587,8 +587,8 @@ GameObject:
   - component: {fileID: 621166016}
   - component: {fileID: 621166015}
   - component: {fileID: 621166014}
-  - component: {fileID: 621166013}
   - component: {fileID: 621166012}
+  - component: {fileID: 621166013}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -631,10 +631,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 621166011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02728fb9d7329fa45a1d91bd5c6caa27, type: 3}
+  m_Script: {fileID: 11500000, guid: a8f6b47faa8390e4d96fc9eb0c31df28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
 --- !u!50 &621166014
 Rigidbody2D:
   serializedVersion: 4
@@ -785,8 +785,8 @@ GameObject:
   - component: {fileID: 907948963}
   - component: {fileID: 907948962}
   - component: {fileID: 907948964}
-  - component: {fileID: 907948965}
   - component: {fileID: 907948966}
+  - component: {fileID: 907948965}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -889,10 +889,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 907948961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02728fb9d7329fa45a1d91bd5c6caa27, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fe439db46ef8b047a675318e9c965e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
 --- !u!61 &907948966
 BoxCollider2D:
   m_ObjectHideFlags: 0
