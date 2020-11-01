@@ -26,4 +26,13 @@ public class SpawnStars : MonoBehaviour
         count = count + 1;
         
     }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(collision.collider.tag == "Players")
+    //    {
+    //        Destroy(Star);        
+    //    }
+    //}
+    
 }
