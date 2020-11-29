@@ -40,6 +40,7 @@ public class Player2Movement : MonoBehaviour
     void getPoint(GameObject star)
     {
         Destroy(star);
+        MinigameController.Instance.AddScore(2, 1);
     }
 
 }

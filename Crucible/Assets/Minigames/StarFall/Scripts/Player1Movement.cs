@@ -41,6 +41,7 @@ public class Player1Movement : MonoBehaviour
     void getPoint(GameObject star)
     {
         Destroy(star);
+        MinigameController.Instance.AddScore(1, 1);
     }
 
 }
