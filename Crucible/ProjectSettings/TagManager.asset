@@ -7,6 +7,7 @@ TagManager:
   - holes
   - Ground
   - Players
+  - star
   layers:
   - Default
   - TransparentFX

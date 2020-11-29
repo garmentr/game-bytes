@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 621166013}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Players
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1430,7 +1430,7 @@ GameObject:
   - component: {fileID: 907948965}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Players
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2137,7 +2137,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813478176}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 115850eeaa142084e8d7205803987f7f, type: 3}
   m_Name: 
@@ -2476,6 +2476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063649151563451037, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: star
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddae136fc582692488f637c115b031ca, type: 3}

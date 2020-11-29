@@ -28,4 +28,18 @@ public class Player2Movement : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpHeight), ForceMode2D.Impulse);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {   
+        if(collision.collider.tag == "star")
+        {
+            getPoint(collision.collider.gameObject);
+        }
+    }
+
+    void getPoint(GameObject star)
+    {
+        Destroy(star);
+    }
+
 }
