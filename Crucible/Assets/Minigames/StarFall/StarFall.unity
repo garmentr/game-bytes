@@ -805,6 +805,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Star2
       objectReference: {fileID: 0}
+    - target: {fileID: 924481458563522606, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8063649151563451024, guid: ddae136fc582692488f637c115b031ca,
         type: 3}
       propertyPath: m_Enabled
@@ -1699,6 +1704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Star1
+      objectReference: {fileID: 0}
+    - target: {fileID: 924481458563522606, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8063649151563451024, guid: ddae136fc582692488f637c115b031ca,
         type: 3}
@@ -2680,6 +2690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 924481458563522606, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddae136fc582692488f637c115b031ca, type: 3}
