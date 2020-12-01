@@ -29,7 +29,6 @@ public class Player1Movement : MonoBehaviour
         }
     }
 
-
     private void OnCollisionEnter2D(Collision2D collision)
     {   
         if(collision.collider.tag == "star")
