@@ -32,7 +32,9 @@ public class Player1Movement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {   
         if(collision.collider.tag == "star")
-        {
+        {   
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(),
+            GetComponent<Collider2D>());
             getPoint(collision.collider.gameObject);
         }
     }
