@@ -1326,7 +1326,7 @@ MonoBehaviour:
   TimerText: {fileID: 1289851229}
   Score1Text: {fileID: 271921620}
   Score2Text: {fileID: 508174078}
-  DEBUG_GamemodeToTest: 2
+  DEBUG_GamemodeToTest: 4
   CurrentGamemode: 0
   MinigameEnded: 0
 --- !u!1 &815983173
