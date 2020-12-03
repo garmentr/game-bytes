@@ -29,6 +29,6 @@ MonoBehaviour:
   P2_Button2Description: None
   GameScene:
     sceneAsset: {fileID: 102900000, guid: da97d35142268994f97934479625f405, type: 3}
-    scenePath: Assets/Minigames/Template/Scene_Template.unity
+    scenePath: Assets/Minigames/_MinigameTemplate/Scene_Template.unity
   SupportedGameModes: 2
   ExcludeFromGameList: 1

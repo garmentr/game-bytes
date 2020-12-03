@@ -28,7 +28,7 @@ MonoBehaviour:
   P2_Button1Description: Win
   P2_Button2Description: None
   GameScene:
-    sceneAsset: {fileID: 102900000, guid: 585172c227135ee47aa2e38104f9bf1e, type: 3}
+    sceneAsset: {fileID: 102900000, guid: 22749aae6fa0e3546b598bca28a35d7c, type: 3}
     scenePath: Assets/Minigames/StarFall/StarFall.unity
-  SupportedGameModes: 2
+  SupportedGameModes: 4
   ExcludeFromGameList: 1
