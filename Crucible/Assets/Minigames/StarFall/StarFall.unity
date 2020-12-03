@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 186276704}
   m_Layer: 0
   m_Name: Meteor
-  m_TagString: Untagged
+  m_TagString: StarFall-meteor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -822,6 +822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Star2
+      objectReference: {fileID: 0}
+    - target: {fileID: 924481458563522604, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: StarFall-star
       objectReference: {fileID: 0}
     - target: {fileID: 924481458563522606, guid: ddae136fc582692488f637c115b031ca,
         type: 3}
@@ -1723,6 +1728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Star1
       objectReference: {fileID: 0}
+    - target: {fileID: 924481458563522604, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: StarFall-star
+      objectReference: {fileID: 0}
     - target: {fileID: 924481458563522606, guid: ddae136fc582692488f637c115b031ca,
         type: 3}
       propertyPath: m_Enabled
@@ -2131,7 +2141,7 @@ GameObject:
   - component: {fileID: 1418238454}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Ground
+  m_TagString: StarFall-Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2462,7 +2472,7 @@ GameObject:
   - component: {fileID: 1884788695}
   - component: {fileID: 1884788694}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2708,6 +2718,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 924481458563522604, guid: ddae136fc582692488f637c115b031ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: StarFall-star
       objectReference: {fileID: 0}
     - target: {fileID: 924481458563522606, guid: ddae136fc582692488f637c115b031ca,
         type: 3}

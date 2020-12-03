@@ -31,9 +31,13 @@ public class Player1Movement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {   
-        if(collision.collider.tag == "star")
+        if(collision.collider.tag == "StarFall-star")
         {
             getPoint(collision.collider.gameObject);
+        }
+        if(collision.collider.tag == "StarFall-meteor")
+        {
+            losePoint(collision.collider.gameObject);
         }
     }
 
@@ -41,6 +45,11 @@ public class Player1Movement : MonoBehaviour
     {
         Destroy(star);
         MinigameController.Instance.AddScore(1, 1);
+    }
+
+    void losePoint(GameObject metor)
+    {
+        MinigameController.Instance.AddScore(1, -1);
     }
 
 }

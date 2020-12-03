@@ -18,7 +18,7 @@ public class Grounded : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Ground")
+        if(collision.collider.tag == "StarFall-Ground")
         {
             print("Here");
             Player.GetComponent<Player1Movement>().isGrounded = true;
@@ -27,7 +27,7 @@ public class Grounded : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Ground")
+        if(collision.collider.tag == "StarFall-Ground")
         {
             Player.GetComponent<Player1Movement>().isGrounded = false;
         }

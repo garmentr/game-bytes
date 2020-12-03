@@ -7,7 +7,9 @@ TagManager:
   - holes
   - Ground
   - Players
-  - star
+  - StarFall-star
+  - StarFall-Ground
+  - StarFall-meteor
   layers:
   - Default
   - TransparentFX
